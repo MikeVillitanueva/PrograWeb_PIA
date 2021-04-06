@@ -1,0 +1,64 @@
+*{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Formulario_registro{
+     width: 480px;
+     background:sandybrown;
+     transition: background-color 1s linear;
+     padding: 20px;
+     margin: auto;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     
+}
+
+.Formulario_registro:hover{
+     background-color: transparent;
+     border-style: solid;
+     border-color: #e0740e;
+}
+
+/* .etiquetas{
+     border-color: #e0740e;
+     border-style:solid;
+} */
+
+.campos {
+     margin-bottom: 10px;
+     width: 240px;
+     border-color: #e0740e;
+     
+}
+
+.botones{
+     background-color: #f28825;
+     width: 150px;
+     border: none;
+     
+
+    
+}
+
+.botones:hover {
+     background-color:#e0740e;
+     color: white;
+
+}
+
+html {
+     height: 100%;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+}
+
+footer {
+     margin-top: 25px;
+}
+
+
+

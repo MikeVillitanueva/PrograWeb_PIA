@@ -1,0 +1,51 @@
+*{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar {
+     border-bottom: solid;
+     background-color: #e0740e;
+     position: fixed;
+     /* La barra de navegación se queda fijada en su posición*/
+     top: 0;
+     /* La posiciona al inicio de la página*/
+     width: 100%;
+     /* El ancho entero de la pantalla */
+}
+
+.navbar .navbar-brand:hover {
+     color:red;
+}
+
+
+
+.navbar .navbar-nav .nav-link{
+     color:black;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+     color: blue;
+}
+
+.dropdown{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.main{
+     margin-top: 65px;
+}
+
+html {
+     height: 100%;
+}
+
+body {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+}
+
+footer{
+     margin-top: 25px;
+}
