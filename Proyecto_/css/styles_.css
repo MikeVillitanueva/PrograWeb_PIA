@@ -17,8 +17,6 @@
      color:red;
 }
 
-
-
 .navbar .navbar-nav .nav-link{
      color:black;
 }
@@ -31,9 +29,35 @@
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.BuscarLupa:hover{
+     background-color: #afafaf;
+}
+
+.TituloBusquedaA{
+     margin-top: 10px;
+     border-top: solid;
+     border-bottom: solid;
+     border-color: #bbbec2;
+     padding-top: 5px;
+}
+
+.categoriasbusca{
+     margin-left: auto;
+}
 
 .main{
-     margin-top: 65px;
+     margin-top: 80px;
+
+     
+    
+}
+
+.pregunta{
+     font-size: 28px;
+}
+
+.descripcion{
+     font-size: 22px;
 }
 
 html {
@@ -47,5 +71,5 @@ body {
 }
 
 footer{
-     margin-top: 25px;
+     margin-top: 50px;
 }
