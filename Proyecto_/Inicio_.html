@@ -19,7 +19,7 @@
 
      <nav class="navbar navbar-expand-md  navbar-light" >
           <ul class="navbar-nav mr-auto">
-               <img style="height: 50px; width: 70px; border-radius: 15px;" src="Imagenes/que.png" alt="Logo">
+               <img  class="logopag"  src="Imagenes/que.png" alt="Logo">
           </ul>
 
           <!-- Boton que aparece cuando colapsas la navbar en tamaño md es la "palanca" (toggle) que expande los elementos en el div con id:navbarmenu -->
@@ -59,9 +59,12 @@
                                 <input style="width: 295px;" type="text" name="BusquedaN" id="BuscarNormal">
                               </div>
                               <div class="col-2">
-                                <button class="BuscarLupa">
-                                  <img style="width: 20px; height: 20px;" src="Imagenes/Lupa.png" alt="LupaBuscar">
-                                </button>
+                                <a href="#">
+                                  <button class="BuscarLupa">
+                                    <img style="width: 20px; height: 20px;" src="Imagenes/Lupa.png" alt="LupaBuscar">
+                                  </button>
+
+                                </a>
                               </div>
                             </div>
                           </div>
@@ -117,7 +120,7 @@
                       </li>   
                       
                       <!--Añade pregunta  -->
-                    <li class="nav-item"> <a href="#" class="nav-link">Añadir Pregunta</a></li>     
+                    <li class="nav-item"> <a href="Pregunta.html" class="nav-link">Añadir Pregunta</a></li>     
                </ul>
           </div>
           
@@ -132,103 +135,82 @@
 
      <!-- CUERPO DE LA PÁGINA -->
 
-     <section class="main" >
-       <div class="container" style="border-style: solid; ">
-        
-            <p style=" border-bottom: solid; margin: 0;" >
-             Usuario_1   
-           </p>
-        
-          <p class="pregunta" style="margin-bottom: 0; border-bottom: solid;">
-            ¿Cuántos huevos ocupa un omelette?
-          </p>
-          <form action="">
-            <label for="categoriapreg">Categoría:</label>
-            <select name="categoriapreg" id="categoriapreg">
-              <option value="Comida">Comida</option>
-              <option value="Deportes">Deportes</option>
-              <option value="Juegos">Juegos</option>
-              <option value="Amor">Amor</option>
-              <option value="Trabajo">Trabajo</option>
-            </select>
-          </form>
-          <p class="descripcion">
-            Lo necesito para una receta, gracias.
-          </p>
-          
+     <div class="container main">
+      <div class="row">
+        <div class="col-9">
+          <!-- Pregunta 1 -->
+          <section>
+            <div class="container">
+                 <p style=" border-bottom: solid; margin: 0;" >
+                  Usuario_1   
+                </p>
+             
+               <p class="pregunta" style="margin-bottom: 0; border-bottom: solid;">
+                 ¿Cuántos huevos ocupa un omelette?
+               </p>
+               <form style="margin-top: 8px;" action="">
+                 <label for="categoriapreg">Categoría:</label>
+                 <select name="categoriapreg" id="categoriapreg">
+                   <option value="Comida">Comida</option>
+                   <option value="Deportes">Deportes</option>
+                   <option value="Juegos">Juegos</option>
+                   <option value="Amor">Amor</option>
+                   <option value="Trabajo">Trabajo</option>
+                 </select>
+               </form>
+               <p class="descripcion">
+                 Lo necesito para una receta, gracias.
+               </p>
+               
+             </div>
+           </section>
         </div>
-        
-        <section class="container">
-          <img style="width: 80px; height: 80px;" src="Imagenes/05-Hecho_en_Mexico.jpg" alt="">
-          
-       </section>
-        
-      </section>
-      
-      
-
-
-     <div class="text-center" >
-          <p>hola cssdc</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
-          <p>hola</p>
+        <div class="col-3 text-center">
+          <img class="imagenpregunta" src="Imagenes/omelette.jpg" alt="">
+        </div>
+      </div>
      </div>
 
+
+     <div class="container main">
+      <div class="row">
+        <div class="col-9">
+          <!-- pregunta 2 -->
+         <section>
+           <div class="container">
+                <p style=" border-bottom: solid; margin: 0;" >
+                 Usuario_1   
+               </p>
+            
+              <p class="pregunta" style="margin-bottom: 0; border-bottom: solid;">
+                ¿Cuántos huevos ocupa un omelette?
+              </p>
+              <form style="margin-top: 8px;" action="">
+                <label for="categoriapreg">Categoría:</label>
+                <select name="categoriapreg" id="categoriapreg">
+                  <option value="Comida">Comida</option>
+                  <option value="Deportes">Deportes</option>
+                  <option value="Juegos">Juegos</option>
+                  <option value="Amor">Amor</option>
+                  <option value="Trabajo">Trabajo</option>
+                </select>
+              </form>
+              <p class="descripcion">
+                Lo necesito para una receta, gracias.
+              </p>
+              
+            </div>
+            
+           
+          </section>
+        </div>
+        <div class="col-3 text-center">
+          <img class="imagenpregunta" src="Imagenes/omelette.jpg" alt="">
+        </div>
+      </div>
+     </div>
      
-     
-     
+
      <!-- Optional JavaScript -->
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -237,7 +219,6 @@
      <script src ="js/inicio_.js"></script>
     </body>
 
-    
     <!-- FOOTER DE LA PÁGINA -->
 <footer class=" text-lg-start" style="background-color:   #f28825;">
  <!-- Grid container -->
@@ -283,5 +264,7 @@
 
 
 </footer>
+
+    
 <!-- TERMINA FOOTER DE LA PÁGINA -->
 </html>

@@ -3,6 +3,7 @@
 }
 
 .navbar {
+    font-size: 20px;
     z-index: 999;
     border-bottom: solid;
     background-color: #e0740e;
@@ -24,6 +25,12 @@
 
 .navbar .navbar-nav .nav-link:hover{
     color: blue;
+}
+
+.logopag {
+    height: 50px;
+    width: 70px;
+    border-radius: 15px;
 }
 
 .dropdown{
@@ -54,6 +61,8 @@
     width: 100%;
 }
 
+
+
 .img_perfil{
     width: 150px;
     height: 150px;
@@ -65,23 +74,19 @@
 }
 
 .info_perfil{
-    /*width: 80%;
-    padding: 20px;
-    margin-top: 0px;
-    margin-left: 230px;*/
     background:sandybrown;
-    width: 80%;
-    margin-top: 100px;
-    padding: 10px 0;
-    float: left;
+    
 }
 
 .opc_perfil{
     background:sandybrown;
-    width: 80%;
-    margin-top: 5px;
-    padding: 30px 0;
-    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.opc_perfil:hover{
+   background: rgb(231, 147, 73);
+
 }
 
 .opc_perfil .opc{
@@ -98,24 +103,37 @@
 }
 
 .formulario_perfil{
-    width: 80%;
+    width: 90%;
     background:sandybrown;
     transition: background-color 1s linear;
     padding: 20px;
-    margin-left: 220px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+.formulario_perfil .botones{
+    border-style: none;
+    border-color: transparent;
+    transition: border-style 1s linear;
+    transition: border-color 1s linear;
+}
+
 .formulario_perfil:hover{
-    background-color: transparent;
+    background-color: #f08f3a;
     border-style: solid;
     border-color: #e0740e;
+    
+}
+
+.formulario_perfil:hover .botones{
+    border-style: solid;
+    border-color: #ac5a0d;
 }
 
 .campos{
     margin-bottom: 10px;
-    width: 240px;
+    width: 255px;
     border-color: #e0740e;
 }
 
@@ -135,13 +153,21 @@ html {
 }
 
 body {
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     height: 100%;
+    
 }
+
+
 
 footer{
     /* margin-top: 50px; */
+    font-size: 18px;
     position: relative;
     left: 0;
     bottom: 0;
