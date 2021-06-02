@@ -63,8 +63,8 @@
      margin-top: 15px;
      margin-bottom: 15px;
      
-     width: 100px;
-     height: 110px;
+     width: 125px;
+     height: 135px;
 }
 
 .pregunta{
@@ -73,6 +73,31 @@
 
 .descripcion{
      font-size: 22px;
+     color: rgb(129, 78, 29);
+}
+
+#adelante{
+     background-color: white;
+}
+
+.page-item.active .page-link{
+     background-color: sandybrown;
+     border-color: #e0740e;
+}
+
+#numeropagina{
+     color: black;
+}
+
+.page-link{
+     background-color: transparent;
+}
+
+
+.paginacionimg{
+    
+     width: 30px;
+     height: 30px;
 }
 
 html {
